@@ -160,19 +160,19 @@
 .article {
   margin: 20px 10%;
   padding: 0 20px 25px;
-  border: 1px solid lightgrey;
   border-radius: 10px;
   background-color: #E5C4A1;
   position: relative;
   height: 50px;
   overflow: hidden;
-  box-shadow: 2px 2px 2px lightgrey;
+  box-shadow: 0px 2px 6px 0px #212238;
 }
 .article h2 {
   font-size: 28px;
   padding: 0;
   margin: 15px 0 0;
   color: #212238;
+  font-family: "Helvetica";
 }
 .article .date {
   margin: 0;
