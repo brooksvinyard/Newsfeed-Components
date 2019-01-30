@@ -35,8 +35,10 @@
 .header h1 {
   margin: 0;
   font-size: 50px;
-  font-weight: lighter;
-  font-family: "Helvetica";
+  font-weight: bold;
+  font-family: "Futura";
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #212238;
 }
 .focus-in-contract-bck {
   -webkit-animation: focus-in-contract-bck 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both;
@@ -105,7 +107,7 @@
   z-index: 2;
   /* This set the layer level of the element, it has precendence over initial level of 1*/
   border-right: 1px solid silver;
-  font-family: "Helvetica";
+  font-family: "Futura";
   font-weight: lighter;
 }
 .menu ul li {
@@ -172,7 +174,7 @@
   padding: 0;
   margin: 15px 0 0;
   color: #212238;
-  font-family: "Helvetica";
+  font-family: "Futura";
 }
 .article .date {
   margin: 0;
