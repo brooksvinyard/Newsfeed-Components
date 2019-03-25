@@ -2,6 +2,7 @@
 const toggleMenu = () => {
   // Toggle the "menu--open" class on your menu reference. 
   menu.classList.toggle('menu--open');
+  menu.classList.toggle('slide-in-left');
 }
 
 // Start Here: Create a reference to the ".menu" class
